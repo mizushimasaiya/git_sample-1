@@ -1,16 +1,16 @@
 #include <iostream>
 
-int sum(int, int);
+int multiple(int, int);
 
 int main()
 {
         std::cout << "git training"<< std::endl;
     int a = 1; int b = 2;
-    std::cout << sum(a, b) << std::endl;
+    std::cout << "This" << std::endl;
     return 0;
 } 
 
-int sum(int a, int b)
+int multiple(int a, int b)
 {
     return a+b;
 }
